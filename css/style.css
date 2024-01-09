@@ -1,10 +1,10 @@
 @font-face {
   font-family: heading;
-  src: url("./font-family/Roboto-Black.ttf");
+  src: url("./font-family/Roboto-Black.woff");
 }
 @font-face {
   font-family: regular;
-  src: url("./font-family/Roboto-Regular.ttf");
+  src: url("./font-family/Roboto-Regular.woff");
 }
 * {
   margin: 0;

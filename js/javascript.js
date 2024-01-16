@@ -400,7 +400,7 @@ para.to(
 para.to(
   "#fence-img-3",
   {
-    x: 1800,
+    x: 1850,
     filter: "brightness(20%)",
   },
   "hui"
@@ -496,6 +496,7 @@ para.to(
   },
   "hui"
 );
+
 // strategy part
 
 gsap.to(".strategy", {
@@ -517,7 +518,7 @@ gsap.to(".strat-1 h1", {
   },
 });
 gsap.to(".strategy svg", {
-  x: 1010,
+  left: "80%",
   rotate: "90deg",
   color: "#000",
   scrollTrigger: {

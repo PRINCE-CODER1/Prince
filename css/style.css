@@ -93,6 +93,7 @@ body {
   border-radius: 50%;
   background: #dddbdb;
 }
+
 /* canva part */
 .main {
   position: relative;
@@ -130,6 +131,10 @@ body {
   color: #ffffff10;
   text-transform: uppercase;
 }
+.part-2 {
+  width: 400%;
+  white-space: wrap;
+}
 .part-2 h1 {
   color: #fff;
   font-size: 7vw;
@@ -146,6 +151,9 @@ body {
   -webkit-text-stroke: 2px #fff;
   color: transparent;
 }
+
+/* page-1  */
+
 .page-1 {
   position: relative;
   width: 100%;
@@ -549,4 +557,122 @@ body {
 }
 .strat-1:hover h1 {
   transform: translateY(-100%);
+}
+@media (max-width: 600px) {
+  .landing-para {
+    top: 15%;
+  }
+  .planet img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: contain;
+  }
+  .fence img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .fence img:nth-child(4) {
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 38%;
+    background-size: cover;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  .fence img:nth-child(5) {
+    width: 100%;
+    height: 100%;
+    left: 75%;
+    top: 45%;
+    filter: brightness(50%);
+    background-size: cover;
+    object-fit: cover;
+  }
+  .grass img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .grass img:nth-child(1) {
+    left: 0%;
+    filter: brightness(0%);
+  }
+  .grass img:nth-child(2) {
+    left: 30%;
+    filter: brightness(0%);
+  }
+  .grass img:nth-child(3) {
+    left: -60%;
+    filter: brightness(0%);
+  }
+  .grass img:nth-child(4) {
+    left: 0%;
+    filter: brightness(0%);
+  }
+  .meteor {
+    display: grid;
+    place-items: center;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: -40%;
+    right: -300%;
+    z-index: 0;
+    transform: rotate(10deg);
+    border: 2px solid red;
+  }
+  .meteor img {
+    background-size: cover;
+    object-fit: contain;
+  }
+  .fence img:nth-child(3) {
+    width: 25%;
+    height: 20%;
+    left: -685%;
+    top: 5%;
+    filter: brightness(100%);
+  }
+  .part-1 p,
+  .part-3 p {
+    font-size: 10.5vw;
+    padding: 0 8vw;
+    color: #ffffff10;
+    text-transform: uppercase;
+  }
+  .part-2 {
+    height: 100%;
+  }
+  .part-2 h1 {
+    color: #fff;
+    font-size: 10vw;
+  }
+  .btm-con {
+    bottom: 10%;
+  }
+  .top-con p {
+    font-size: 5vw;
+  }
+  .top-con h1,
+  .btm-con h1 {
+    font-size: 10.5vw;
+    line-height: 20vw;
+  }
+  .btm-con p {
+    font-size: 2.5vw;
+    text-align: justify;
+  }
+  .strategy svg {
+    position: absolute;
+    color: #fff;
+    top: 5%;
+    left: 15%;
+    width: 80px;
+  }
 }

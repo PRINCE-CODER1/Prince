@@ -665,8 +665,8 @@ hover.forEach((index) => {
   });
   index.addEventListener("mouseleave", function () {
     index.style.background = "transparent";
-    crsr.style.width = "100px";
-    crsr.style.height = "100px";
+    crsr.style.width = "0px";
+    crsr.style.height = "0px";
     crsr.style.borderRadius = "50%";
     crsr.style.backgroundImage = `none`;
   });
